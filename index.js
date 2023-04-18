@@ -12,7 +12,7 @@ app.use(express.json());
 const scholarships = require("./scholarships.json");
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("ISKO NI JUAN API SERVER");
 });
 
 app.get("/scholarships", (req, res) => {
